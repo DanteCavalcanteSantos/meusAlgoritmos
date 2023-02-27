@@ -35,7 +35,8 @@ public class ExercicioMelhorado5 {
 	//metodos
 	
 	
-	public double calcNota(double media) {
+	public double calcNota() {
+		double media;
 		return media = (this.primeiraNota + this.segundaNota) / 2;
 	}
 

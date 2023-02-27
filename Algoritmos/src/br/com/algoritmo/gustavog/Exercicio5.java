@@ -35,11 +35,11 @@ public class Exercicio5 extends ExercicioMelhorado5{
 		System.out.println("Informe a nota do Aluno: ");
 		listaNotas2.add(notaDois.nextDouble());
 		
-		
-		
 		System.out.println("A média do aluno foi: ");
 		
-		
+		for(int i = 0; i < listaAlunos.size(); i++) {
+			System.out.println(i);
+		}
 		
 	
 		
